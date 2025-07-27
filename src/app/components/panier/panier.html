@@ -1,0 +1,11 @@
+<h2 i18n="@@cartTitle">Mon Panier</h2>
+
+<div *ngIf="panier.length === 0" i18n="@@emptyCart">
+  Le panier est vide.
+</div>
+
+<ul>
+  <li *ngFor="let item of panier">
+    {{ item.nom }} - {{ item.prix }} €
+  </li>
+</ul>

@@ -13,6 +13,13 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "fr",
+        "locales": {
+          "en": "src/locale/messages.en.xlf",
+          "es": "src/locale/messages.es.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -33,7 +40,10 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "polyfills": [
+              "@angular/localize/init"
+            ]
           },
           "configurations": {
             "production": {
@@ -51,6 +61,14 @@
               ],
               "outputHashing": "all"
             },
+            "en": {
+              "localize": ["en"],
+              "outputPath": "dist/panier-i18n/en"
+            },
+            "es": {
+              "localize": ["es"],
+              "outputPath": "dist/panier-i18n/es"
+            },
             "development": {
               "optimization": false,
               "extractLicenses": false,
@@ -67,6 +85,12 @@
             },
             "development": {
               "buildTarget": "panier-i18n:build:development"
+            },
+            "en": {
+              "buildTarget": "panier-i18n:build:en"
+            },
+            "es": {
+              "buildTarget": "panier-i18n:build:es"
             }
           },
           "defaultConfiguration": "development"
@@ -87,10 +111,16 @@
             ],
             "styles": [
               "src/styles.scss"
+            ],
+            "polyfills": [
+              "@angular/localize/init"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "58c7e8df-21f5-4ce6-9035-5969900c5bc1"
   }
 }

@@ -1,0 +1,34 @@
+<h2 i18n="@@catalogTitle">Catalogue</h2>
+
+<div class="produit">
+  <h3 i18n="@@itemTitle1">Gourde inox</h3>
+  <p i18n="@@itemDesc1">Bouteille réutilisable 500ml, idéale pour le sport et le bureau.</p>
+  <p><span i18n="@@priceLabel">Prix :</span> 15.0 €</p>
+  <button
+    (click)="ajouterAuPanier({ id: 1, nom: 'Gourde inox', description: 'Bouteille réutilisable 500ml, idéale pour le sport et le bureau.', prix: 15.0 })"
+    i18n="@@addToCart">
+    Ajouter au panier
+  </button>
+</div>
+
+<div class="produit">
+  <h3 i18n="@@itemTitle2">Lampe LED</h3>
+  <p i18n="@@itemDesc2">Petite lampe de chevet avec variateur de lumière.</p>
+  <p><span i18n="@@priceLabel">Prix :</span> 22.5 €</p>
+  <button
+    (click)="ajouterAuPanier({ id: 2, nom: 'Lampe LED', description: 'Petite lampe de chevet avec variateur de lumière.', prix: 22.5 })"
+    i18n="@@addToCart">
+    Ajouter au panier
+  </button>
+</div>
+
+<div class="produit">
+  <h3 i18n="@@itemTitle3">Clavier mécanique</h3>
+  <p i18n="@@itemDesc3">Clavier compact avec rétroéclairage RGB.</p>
+  <p><span i18n="@@priceLabel">Prix :</span> 69.9 €</p>
+  <button
+    (click)="ajouterAuPanier({ id: 3, nom: 'Clavier mécanique', description: 'Clavier compact avec rétroéclairage RGB.', prix: 69.9 })"
+    i18n="@@addToCart">
+    Ajouter au panier
+  </button>
+</div>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="catalogTitle" datatype="html">
+        <source>Catalogue</source>
+        <target>Catalog</target>
+      </trans-unit>
+
+      <trans-unit id="priceLabel" datatype="html">
+        <source>Prix :</source>
+        <target>Price:</target>
+      </trans-unit>
+
+      <trans-unit id="addToCart" datatype="html">
+        <source> Ajouter au panier </source>
+        <target> Add to cart </target>
+      </trans-unit>
+
+      <trans-unit id="cartTitle" datatype="html">
+        <source>Mon Panier</source>
+        <target>My Cart</target>
+      </trans-unit>
+
+      <trans-unit id="emptyCart" datatype="html">
+        <source> Le panier est vide.</source>
+        <target> The cart is empty. </target>
+      </trans-unit>
+      <trans-unit id="itemTitle1"><source>Gourde inox</source><target>Stainless steel bottle</target></trans-unit>
+      <trans-unit id="itemDesc1"><source>Bouteille réutilisable 500ml, idéale pour le sport et le bureau.</source><target>Reusable 500ml bottle, perfect for sports and office use.</target></trans-unit>
+
+      <trans-unit id="itemTitle2"><source>Lampe LED</source><target>LED Lamp</target></trans-unit>
+      <trans-unit id="itemDesc2"><source>Petite lampe de chevet avec variateur de lumière.</source><target>Small bedside lamp with dimmer.</target></trans-unit>
+
+      <trans-unit id="itemTitle3"><source>Clavier mécanique</source><target>Mechanical Keyboard</target></trans-unit>
+      <trans-unit id="itemDesc3"><source>Clavier compact avec rétroéclairage RGB.</source><target>Compact keyboard with RGB backlight.</target></trans-unit>
+
+    </body>
+  </file>
+</xliff>

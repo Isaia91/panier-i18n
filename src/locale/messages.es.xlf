@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" target-language="xx-LI" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="catalogTitle" datatype="html">
+        <source>Catalogue</source>
+        <target>Lorem Catalogum</target>
+      </trans-unit>
+
+      <trans-unit id="priceLabel" datatype="html">
+        <source>Prix :</source>
+        <target>Lorem Pretium:</target>
+      </trans-unit>
+
+      <trans-unit id="addToCart" datatype="html">
+        <source> Ajouter au panier </source>
+        <target> Lorem Ipsum Ad Panier </target>
+      </trans-unit>
+
+      <trans-unit id="cartTitle" datatype="html">
+        <source>Mon Panier</source>
+        <target>Panier Ipsum</target>
+      </trans-unit>
+
+      <trans-unit id="emptyCart" datatype="html">
+        <source> Le panier est vide.</source>
+        <target> Lorem ipsum dolor sit amet, paniero est vacuum. </target>
+      </trans-unit>
+
+      <trans-unit id="itemTitle1"><source>Gourde inox</source><target>Lorumbottle Maximus</target></trans-unit>
+      <trans-unit id="itemDesc1"><source>Bouteille réutilisable 500ml, idéale pour le sport et le bureau.</source><target>Ut flask 500ml. Ipsum sportus et officium.</target></trans-unit>
+
+      <trans-unit id="itemTitle2"><source>Lampe LED</source><target>Lumina LED Ipsum</target></trans-unit>
+      <trans-unit id="itemDesc2"><source>Petite lampe de chevet avec variateur de lumière.</source><target>Minima lucerna cum dimmerium.</target></trans-unit>
+
+      <trans-unit id="itemTitle3"><source>Clavier mécanique</source><target>Clavius Mechanicus RGB</target></trans-unit>
+      <trans-unit id="itemDesc3"><source>Clavier compact avec rétroéclairage RGB.</source><target>Compactus clavus retro RGB.</target></trans-unit>
+
+    </body>
+  </file>
+</xliff>
